@@ -1,27 +1,36 @@
-import React from 'react';
+import React from "react";
+import { Navbar } from "react-bootstrap";
+import {NavLink} from "react-router-dom";
 
-function Nav() {
-
+function NavItem (props) {
   return (
-    <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about">About</a>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#Resume">Resume</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <div>
+      <Navbar>
+        <ul>
+          <li>
+            <NavLink className="link" to="/about">
+              <div className="nav-item" >About Me</div>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink className="link"  to="/projects">
+              <div  className="nav-item">Projects</div>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink className="link" to="/resume">
+              <div  className="nav-item">Resume</div>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink className="link" to="/contact">
+              <div className="nav-item">Contact Me</div>
+            </NavLink>
+          </li>
+        </ul>
+      </Navbar>
+    </div>
   );
 }
 
-export default Nav;
+export default NavItem;

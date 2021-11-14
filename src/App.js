@@ -1,21 +1,15 @@
-import Nav from './components/Nav';
-import About from './components/About';
-import Footer from './components/Footer'; 
-import background from '../src/assets/img/background.jpg'; 
-
+import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
   return (
-    <div  styles={{ backgroundImage:`url(${background})` }}>
-      <Nav />
-      <div className="content">
-      <About />
-      </div>
-     
-      <Footer />
-      
+    <div>
+      <Header />
+      {/* <Footer/> */}
     </div>
   );
 }

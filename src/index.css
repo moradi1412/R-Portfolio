@@ -13,29 +13,39 @@ code {
     monospace;
 }
 
-header nav {
+.navbar {
   padding: 10px 350px;
   flex-wrap: wrap;
   font-family: "Montserrat", sans-serif;
   align-items: center;
   align-self: center;
+  list-style: none;
+  margin-bottom: 1vh;
 }
 
 ul {
   justify-content: center;
   font-size: 25px;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap;  
+}
+
+li {
   list-style: none;
 }
 
-a {
+.nav-item {
   text-decoration: none;
   padding : 10px 20px;
-  color: black;
+  color:white;
+  font-size: 30px;
+  list-style: none;
+}
+.link {
+  text-decoration: none;
 }
 
-a:hover {
+.nav-item:hover {
   color:  tan;
   list-style: none;
   text-decoration: none;
@@ -50,13 +60,48 @@ a:hover {
   margin-top: 10vh;
   width: 80%;
 }
+.container {
+  padding: 25px;
+}
 
+.card {
+  margin-bottom: 30px;
+  flex-direction: row;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+  height: 25%; 
+  border-radius: 35px;
+}
 
+.card img {
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  border: 1px solid #ddd;
+  border-radius: 35px;
+}
 
+.card-data{ 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-title {
+  font-size: 25px;
+}
+
+.links {
+  margin-left: 10px;
+  font-size: 25px;
+}
 
 .footer-basic {
   padding:40px 0;
-  color:#4b4c4d;
+  color:#bbbbbb;
   position: relative;
   background-color: rgba(0, 0, 0, 0.472);
 }
