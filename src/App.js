@@ -1,6 +1,8 @@
-import About from './components/About';
-import background from '../src/assets/img/background.jpg'; 
 import Nav from './components/Nav';
+import About from './components/About';
+import Footer from './components/Footer'; 
+import background from '../src/assets/img/background.jpg'; 
+
 import './App.css';
 
 
@@ -9,7 +11,8 @@ function App() {
     <div  styles={{ backgroundImage:`url(${background})` }}>
       <Nav />
       <About />
- 
+      <Footer />
+      
     </div>
   );
 }
