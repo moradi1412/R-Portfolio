@@ -10,7 +10,10 @@ function App() {
   return (
     <div  styles={{ backgroundImage:`url(${background})` }}>
       <Nav />
+      <div className="content">
       <About />
+      </div>
+     
       <Footer />
       
     </div>
