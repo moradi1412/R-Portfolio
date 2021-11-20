@@ -14,5 +14,37 @@
         "github": "https://github.com/moradi1412/Alfie-Social-Network-API",
         "deploy": "https://moradi1412.github.io/Alfie-Social-Network-API/",
         "topics": "API for a social network web with features to add user, delete, update. And within the user, users can have thoughts, and people can post reaction to the thought."
+    },
+    {
+        "id": 3,
+        "name": "Horiseon Website",
+        "image": "https://github.com/moradi1412/0002-HTMLChallenge/blob/master/assets/images/01-html-css-git-homework-demo.png?raw=true",
+        "github": "https://github.com/moradi1412/HTMLChallenge",
+        "deploy": "https://moradi1412.github.io/HTMLChallenge/",
+        "topics": "this project to refactor written code to ensure meets accessibility standards, to make sure CSS style are coded better."
+    }, 
+    {
+        "id": 4,
+        "name": "Pizza Hunt",
+        "image": "https://github.com/moradi1412/Rogers-Pizza-hunt/blob/main/public/assets/images/header-bg.jpg?raw=true",
+        "github": "https://github.com/moradi1412/Rogers-Pizza-hunt",
+        "deploy": "https://moradi1412.github.io/Rogers-Pizza-hunt/",
+        "topics": "A project to display a database for CRUD Method that you can add and edit a pizza or delete"
+    }, 
+    {
+        "id": 5,
+        "name": "Buyer book",
+        "image": "https://github.com/moradi1412/BuyerBook/blob/main/public/assets/img/benchbooks.jpg?raw=true",
+        "github": "https://github.com/moradi1412/BuyerBook",
+        "deploy": "https://moradi1412.github.io/BuyerBook/",
+        "topics": "project for adding your favorite book"
+    },
+    {
+        "id": 6,
+        "name": "Social Network API",
+        "image": "https://github.com/moradi1412/Alfie-Social-Network-API/blob/main/Screenshots-requirement/18-nosql-homework-demo-01.gif?raw=true",
+        "github": "https://github.com/moradi1412/Alfie-Social-Network-API",
+        "deploy": "https://moradi1412.github.io/Alfie-Social-Network-API/",
+        "topics": "API for a social network web with features to add user, delete, update. And within the user, users can have thoughts, and people can post reaction to the thought."
     }
 ]
