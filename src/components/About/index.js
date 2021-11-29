@@ -1,4 +1,5 @@
 import React from 'react'
+import asks from '../../assets/img/2.jpg'
 
 function About() {
 
@@ -12,7 +13,7 @@ function About() {
               Fugit voluptatum veritatis iure consequuntur sequi delectus officia nulla consectetur id non, sit aliquam ducimus officiis! </p>
           </div>
           <div className= 'col'>
-          <img className= "pimg" src={require(`../../assets/img/2.jpg`).default}
+          <img className= "pimg" src={asks}
           alt="Javid Moradi" />
           </div>
 
