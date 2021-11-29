@@ -46,5 +46,13 @@
         "github": "https://github.com/moradi1412/Alfie-Social-Network-API",
         "deploy": "https://moradi1412.github.io/Alfie-Social-Network-API/",
         "topics": "API for a social network web with features to add user, delete, update. And within the user, users can have thoughts, and people can post reaction to the thought."
+    },
+    {
+        "id": 7,
+        "name": "Spartan gym-outlet",
+        "image": "https://github.com/moradi1412/Alfie-Social-Network-API/blob/main/Screenshots-requirement/18-nosql-homework-demo-01.gif?raw=true",
+        "github": " https://github.com/moradi1412/gym-outlet",
+        "deploy": "https://gym-outlet.herokuapp.com/",
+        "topics": "AS a user I WANT to shop on a  website that is easy to use and secure SO THAT I can safely purchase products."
     }
 ]
