@@ -50,7 +50,7 @@
     {
         "id": 7,
         "name": "Spartan gym-outlet",
-        "image": "https://github.com/moradi1412/Alfie-Social-Network-API/blob/main/Screenshots-requirement/18-nosql-homework-demo-01.gif?raw=true",
+        "image": "https://github.com/moradi1412/gym-outlet/blob/main/Spartan.JPG?raw=true",
         "github": " https://github.com/moradi1412/gym-outlet",
         "deploy": "https://gym-outlet.herokuapp.com/",
         "topics": "AS a user I WANT to shop on a  website that is easy to use and secure SO THAT I can safely purchase products."
